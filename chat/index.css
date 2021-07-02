@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.3s ease 0s;
+}
+
+body {
+  background-color: #313438;
+}
+
+main {
+  font-family: 'Comfortaa', cursive;
+}
+
+.back {
+  padding: 15px;
+}
+
+.message {
+  padding: 25px;
+}
+
+.delete {
+  float: right;
+}
+
+.write {
+  position: fixed;
+  bottom: 0;
+  background-color: red;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: #242429;
+}
+
+#message {
+  width: 75%;
+  border: none;
+  border-bottom: 5px solid #333333;
+}
+
+#send {
+  width: 80px;
+  margin-top: 10px;
+  float: right;
+  margin-right: 2%;
+}
+
+input {
+  font-size: 1rem;
+  border: 2px solid black;
+  background: #343847;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  padding: 10px;
+}
+
+input:focus {
+  background: #394049;
+  color: #cccccc;
+}
+
+button {
+  font-size: 1rem;
+  border: 2px solid black;
+  background: #343847;
+  border-radius: 3px;
+  width: 120px;
+  height: 50px;
+}
+
+button:hover {
+  background: #394049;
+  color: #cccccc;
+}
+
+button:active {
+  background: #404451;
+  color: #ffffff;
+}
+
+button:disabled {
+  border-color: #111111;
+  background-color: #343847;
+}
