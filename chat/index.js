@@ -92,7 +92,7 @@ let back_ = document.getElementById("back");
 let send_ = document.getElementById("send");
 
 back_.addEventListener("click", () => {
-  window.location.href = "/index.html";
+  window.location.href = "/";
 });
 
 send_.addEventListener("click", () => {

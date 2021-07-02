@@ -77,5 +77,5 @@ let links_ = document.getElementById("links");
 let back_ = document.getElementById("back");
 
 back_.addEventListener("click", () => {
-  window.location.href = "/index.html";
+  window.location.href = "/";
 });

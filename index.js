@@ -60,7 +60,7 @@ let login_ = document.getElementById("login");
 let contact_ = document.getElementById("contact");
 
 chat_.addEventListener("click", () => {
-  window.location.href = "/chat/index.html";
+  window.location.href = "/chat/";
 });
 
 logout_.addEventListener("click", () => {
@@ -72,7 +72,7 @@ logout_.addEventListener("click", () => {
 });
 
 login_.addEventListener("click", () => {
-  window.location.href = "/login/index.html";
+  window.location.href = "/login/";
 });
 
 contact_.addEventListener("click", () => {
@@ -80,11 +80,11 @@ contact_.addEventListener("click", () => {
 });
 
 control_.addEventListener("click", () => {
-  window.location.href = "/control/index.html";
+  window.location.href = "/control/";
 });
 
 console_.addEventListener("click", () => {
-  window.location.href = "/console/index.html";
+  window.location.href = "/console/";
 });
 
 verify_.addEventListener("click", () => {

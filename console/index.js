@@ -87,7 +87,7 @@ function loadSettings() {
 
 let commandList = {clear: sub => {clearAll()},
   nl: sub => {newLine();},
-  back: sub => {window.location.href = "/index.html";},
+  back: sub => {window.location.href = "/";},
   color: sub => {body_.style.color = sub; storeSettings();},
   background: sub => {body_.style.backgroundColor = sub; storeSettings();},
   read: sub => {
